@@ -1,0 +1,49 @@
+h1 {
+    font-family: "Salsa";
+    color: turquoise;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/t3yricn.jpg");
+    background-attachment: fixed;
+}
+
+#table {
+    width: 75%;
+    margin: auto;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    font-family: "Salsa";
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #4EB1BA;
+    color: #222930;
+    opacity: 0.80;
+}
+
+tr:nth-child(odd) {
+    background-color: #E9E9E9;
+    opacity: 0.80;
+}
+
+button {
+    background-color: lightgreen;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Salsa";
+    width: 100%;
+}
+
+button:hover {
+    background-color: skyblue;
+}
